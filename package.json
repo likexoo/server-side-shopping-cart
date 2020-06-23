@@ -1,0 +1,41 @@
+{
+    "name": "server-side-shopping-cart",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "pretest": "tsc",
+        "test": "mocha \"dist/__tests__/**/*.js\" --exit",
+        "acceptance": "mocha \"dist/__tests__/acceptance/**/*.js\" --exit"
+    },
+    "author": "likexoo",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/bson": "^4.0.2",
+        "@types/lodash": "^4.14.155",
+        "@types/mocha": "^7.0.2",
+        "@types/node": "^14.0.4",
+        "@types/uuid": "^8.0.0",
+        "bson": "^4.0.4",
+        "jest": "^26.0.1",
+        "lodash": "^4.17.15",
+        "mocha": "^8.0.1",
+        "node-cache": "^5.1.0",
+        "typescript": "^3.9.5"
+    },
+    "files": [
+        "README.md",
+        "dist"
+    ],
+    "keywords": [
+        "Shopping Cart",
+        "Real Time Shopping Cart"
+    ],
+    "repository": {
+        "type": "git",
+        "url": ""
+    }
+}
